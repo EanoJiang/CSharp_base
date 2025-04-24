@@ -1,5 +1,7 @@
 # C# 基础篇
 
+> github仓库：[https://github.com/EanoJiang/CSharp_base]()
+
 ![1745502839126](https://img2023.cnblogs.com/blog/3614909/202504/3614909-20250424220248560-1327371337.png)
 
 ## 枚举(enum)
@@ -1640,9 +1642,9 @@ class Program
         //用构造函数的方式初始化结构体变量
         Student s2 = new Student(25, false, "Jerry", new Teacher());
         s2.Speak();
-    
+  
         #endregion
-    
+  
     }
 }
 
@@ -1677,7 +1679,7 @@ namespace 结构体习题
         }
     }
     #endregion
-    
+  
         #region 3
         struct Rectangle{
             public int height;
@@ -1691,7 +1693,7 @@ namespace 结构体习题
             }
         }
         #endregion
-    
+  
         #region 4
         enum Occupation{
                 /// <summary>
@@ -1738,9 +1740,9 @@ namespace 结构体习题
 
                 }
             }
-        
+      
         #endregion
-    
+  
         #region 5
         struct Monster{
             public string name;
@@ -1810,11 +1812,11 @@ namespace 结构体习题
         {   //1
             Student s1 = new Student("John", 18, true, 101, "Math");
             s1.PrintInfo();
-        
+      
             //2
             // private只能在类内部访问
             // public可以在类外部访问
-        
+      
             //3
             Rectangle r1 = new Rectangle(5, 10);
             r1.PrintInfo();

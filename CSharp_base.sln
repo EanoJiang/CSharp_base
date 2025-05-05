@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 25.0.1706.0
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197 d17.13
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "枚举", "枚举\枚举.csproj", "{3BE81CAD-ABA1-45F2-B7A9-D75909FAAEEE}"
 EndProject
@@ -50,6 +50,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "选择排序", "选择排序\选择排序.csproj", "{8D986278-9F7F-40CF-A4B6-BAEC4C284BDD}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "选择排序习题", "选择排序习题\选择排序习题.csproj", "{121467DE-D330-4D2C-8B9F-3D0629B10878}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "控制台小游戏_投骰子", "控制台小游戏_投骰子\控制台小游戏_投骰子.csproj", "{41C7E0F1-6A28-FAED-126F-D8A6419D8FFF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -153,6 +155,10 @@ Global
 		{121467DE-D330-4D2C-8B9F-3D0629B10878}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{121467DE-D330-4D2C-8B9F-3D0629B10878}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{121467DE-D330-4D2C-8B9F-3D0629B10878}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41C7E0F1-6A28-FAED-126F-D8A6419D8FFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41C7E0F1-6A28-FAED-126F-D8A6419D8FFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41C7E0F1-6A28-FAED-126F-D8A6419D8FFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41C7E0F1-6A28-FAED-126F-D8A6419D8FFF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
